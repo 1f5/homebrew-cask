@@ -1,8 +1,8 @@
 cask 'intellij-idea' do
-  version '2018.3.5,183.5912.21'
-  sha256 'c9053534d536bd3b59eb51d7acb7b23ae06b447736754d3c287736899c67bf8f'
+  version '2019.1.3'
+  sha256 '8f76db8a463abb968f6f8280c3c940c647cd2a1370c47e739d6d082c9bfe5288'
 
-  url "https://download.jetbrains.com/idea/ideaIU-#{version.before_comma}.dmg"
+  url "https://download.jetbrains.com/idea/ideaIU-#{version}.dmg"
   appcast 'https://data.services.jetbrains.com/products/releases?code=IIU&latest=true&type=release'
   name 'IntelliJ IDEA Ultimate'
   homepage 'https://www.jetbrains.com/idea/'

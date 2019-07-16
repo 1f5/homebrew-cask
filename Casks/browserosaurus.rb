@@ -1,6 +1,6 @@
 cask 'browserosaurus' do
-  version '4.5.0'
-  sha256 '3492949399243e1b9dc3294fb215f6b771d85225d53f981903f42046f03cf727'
+  version '6.1.0'
+  sha256 '393c0fb5df1c48674082be8185ae764bb10a53925d2eae2fbca2c9e43fdea8d3'
 
   # github.com/will-stone/browserosaurus/ was verified as official when first introduced to the cask
   url "https://github.com/will-stone/browserosaurus/releases/download/v#{version}/Browserosaurus-#{version}.dmg"

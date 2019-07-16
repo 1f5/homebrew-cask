@@ -1,6 +1,6 @@
 cask 'integrity' do
-  version '8.2.3'
-  sha256 '5ff7124a07df90ed0262a52c93fd5e5d87c4b7e5587f502d28c262f5b24018f6'
+  version '9.0.4'
+  sha256 'e71f563a7576cb3d306f24f171afa595f09bcc3c65ec96d995c221d63c0d1216'
 
   # peacockmedia.co.uk/integrity was verified as official when first introduced to the cask
   url 'http://peacockmedia.co.uk/integrity/integrity.dmg'

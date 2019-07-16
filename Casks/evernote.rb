@@ -9,8 +9,8 @@ cask 'evernote' do
     version '7.2.3_456885'
     sha256 'eb9a92d57ceb54570c009e37fa7657a0fa3ab927a445eef382487a3fdde6bb97'
   else
-    version '7.9_457563'
-    sha256 'e2edd95224da502d0511b4056863d00125c6f8760375505832dc39facd095dbc'
+    version '7.11_457846'
+    sha256 'fb8da3b775f8b32cab6fd3759b3ce718b66df5539db8c5c13e9f2335d4b7a513'
   end
 
   url "https://cdn1.evernote.com/mac-smd/public/Evernote_RELEASE_#{version}.dmg"

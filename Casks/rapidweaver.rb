@@ -1,6 +1,6 @@
 cask 'rapidweaver' do
-  version '8.1.6,20662.1551112236'
-  sha256 '7af2766bd0fcdc60e88dac1c3a2a7c1e3e2ebaf4f1964d217ebc174e5c349355'
+  version '8.2.1,20758.1559229313'
+  sha256 'e739f786cbe18f42bdc766e8bc4d6d2777d7112ce54797674e091ae0ae38f182'
 
   # devmate.com/com.realmacsoftware.rapidweaver was verified as official when first introduced to the cask
   url "https://dl.devmate.com/com.realmacsoftware.rapidweaver#{version.major}/#{version.after_comma.major}/#{version.after_comma.minor}/RapidWeaver#{version.major}-#{version.after_comma.major}.zip"

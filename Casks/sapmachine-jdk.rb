@@ -1,11 +1,12 @@
 cask 'sapmachine-jdk' do
-  version '11.0.2'
-  sha256 'c17526aca0891ab291916faeca7a6cdcef77d63de8acb8362c1af0eb95a9c680'
+  version '12.0.1'
+  sha256 '5094b7437356c00a8a347f8c178b10b0228bdb840248980ca28008b746a7fc05'
 
+  # github.com/SAP/SapMachine was verified as official when first introduced to the cask
   url "https://github.com/SAP/SapMachine/releases/download/sapmachine-#{version}/sapmachine-jdk-#{version}_osx-x64_bin.tar.gz"
   appcast "https://sap.github.io/SapMachine/latest/#{version.major}"
-  name 'SapMachine Java Development Kit'
-  homepage 'https://github.com/SAP/SapMachine'
+  name 'SapMachine OpenJDK Development Kit'
+  homepage 'https://sapmachine.io/'
 
   artifact "sapmachine-jdk-#{version}.jdk", target: "/Library/Java/JavaVirtualMachines/sapmachine-jdk-#{version}.jdk"
 

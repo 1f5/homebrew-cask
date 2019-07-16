@@ -1,8 +1,9 @@
 cask 'jgrasp' do
-  version '2.0.5_04'
-  sha256 'd7c825587a1017a7f2b235d61a0709402dae67743fcfb0cc076f7c11969d6087'
+  version '2.0.5_06'
+  sha256 '4afbac7f5fac3851dcd7524ef242143f3b7301ff6bc08af5b86e388432020934'
 
   url "https://jgrasp.org/dl4g/jgrasp/jgrasp#{version.no_dots}.pkg"
+  appcast 'https://jgrasp.org/'
   name 'jgrasp'
   homepage 'https://jgrasp.org/'
 

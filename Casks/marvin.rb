@@ -1,9 +1,9 @@
 cask 'marvin' do
-  version '1.38.0'
-  sha256 '9f15a4faca0b4e01a99a44e26bbbb4db94c6a30da05cd5d8dcdf956781741be8'
+  version '1.42.0'
+  sha256 '0db23d6e011ea23d53906ea9394af04ef4e9e5d0ffe77d5d5cdd8c7ac7694805'
 
-  # s3.amazonaws.com/amazingmarvin was verified as official when first introduced to the cask
-  url "https://s3.amazonaws.com/amazingmarvin/Marvin-#{version}.dmg"
+  # amazingmarvin.s3.amazonaws.com was verified as official when first introduced to the cask
+  url "https://amazingmarvin.s3.amazonaws.com/Marvin-#{version}.dmg"
   appcast 'https://macupdater.net/cgi-bin/check_urls/check_url_redirect.cgi?url=http://amazingmarvin.s3-website-us-east-1.amazonaws.com/Marvin.dmg'
   name 'Amazing Marvin'
   homepage 'https://www.amazingmarvin.com/'

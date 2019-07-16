@@ -1,6 +1,6 @@
 cask 'framer-x' do
-  version '28904,1551352889'
-  sha256 'bcba707f1b3839c5f3c19291abf7abb892165ce58036d9c0d6ce1dfd08d1a64c'
+  version '33506,1562961009'
+  sha256 'ff482f5d84110dc74cb5f162afef07046eb3bf4924f4a83c3fba926300b328c3'
 
   # dl.devmate.com/com.framer.x was verified as official when first introduced to the cask
   url "https://dl.devmate.com/com.framer.x/#{version.before_comma}/#{version.after_comma}/FramerX-#{version.before_comma}.zip"
@@ -8,7 +8,7 @@ cask 'framer-x' do
   name 'Framer X'
   homepage 'https://framer.com/'
 
-  depends_on macos: '>= :sierra'
+  depends_on macos: '>= :high_sierra'
 
   app 'Framer X.app'
 end

@@ -1,6 +1,6 @@
 cask 'textadept' do
-  version '10.3'
-  sha256 '2527ce7af21b8c2efab2048329f77dc6f28f0c92c4be4011ef0831452f8da018'
+  version '10.5'
+  sha256 'ab691e3a4a8958d390dcaacff1083f8acdc28539b7d54de77077d5145401308b'
 
   url "https://foicica.com/textadept/download/textadept_#{version}.osx.zip"
   appcast 'https://foicica.com/textadept/feed'

@@ -1,6 +1,6 @@
 cask 'sublime-merge' do
-  version '1103'
-  sha256 '5508dd4a797d2d869c6bac2219cd0ce542b39bcdd3ad0908449c9acae5b9489c'
+  version '1116'
+  sha256 'c3aa89a04f0c1bf5b0040b3c90fc285955473b6a69b2081724b805984d44e65d'
 
   # download.sublimetext.com was verified as official when first introduced to the cask
   url "https://download.sublimetext.com/sublime_merge_build_#{version}_mac.zip"
@@ -9,6 +9,7 @@ cask 'sublime-merge' do
   homepage 'https://www.sublimemerge.com/'
 
   auto_updates true
+  conflicts_with cask: 'sublime-merge-dev'
 
   app 'Sublime Merge.app'
   binary "#{appdir}/Sublime Merge.app/Contents/SharedSupport/bin/smerge"

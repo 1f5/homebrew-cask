@@ -1,9 +1,10 @@
 cask 'flash-ppapi' do
-  version '32.0.0.142'
-  sha256 'ac3ece0c29cd9253d73c2fe42652ced64f6bb38d5c272ddd4b3a3c9cd0bcd7f0'
+  version '32.0.0.223'
+  sha256 'b886fdd24d051c4e3c53fb4c1d14b9febabb34cacfe73624b36c2fc85be2828c'
 
   url "https://fpdownload.adobe.com/pub/flashplayer/pdc/#{version}/install_flash_player_osx_ppapi.dmg"
-  appcast 'https://fpdownload.adobe.com/pub/flashplayer/update/current/xml/version_en_mac_pep.xml'
+  appcast 'https://fpdownload.adobe.com/pub/flashplayer/update/current/xml/version_en_mac_pep.xml',
+          configuration: version.tr('.', ',')
   name 'Adobe Flash Player PPAPI (plugin for Opera and Chromium)'
   homepage 'https://get.adobe.com/flashplayer/otherversions/'
 
